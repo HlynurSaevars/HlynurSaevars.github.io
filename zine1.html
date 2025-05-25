@@ -12,60 +12,59 @@
     <style>
 
               .fixed-overlay2 {
-            position: fixed;    /* Makes it stay in same screen position */
-            width: 100px;       /* Set your image width */
-            height: auto;      /* Maintain aspect ratio */
-            z-index: 20;     /*Ensures it stays on top */
+            position: fixed;  
+            width: 100px;       
+            height: auto;    
+            z-index: 20;  
             
-            /* Position on screen - adjust these */
+
             top: 20px;
             right: 1610px;
              
            
            
         }
-      /* Container for the images */
+
       .image-container {
           position: relative;
           top: -60px;
-          width: 100%;       /* Match your background image width */
-          height: 100%;      /* Match your background image height */
+          width: 100%;       
+          height: 100%;     
           
       }
       
-      /* Background image (static) */
+
       .base-image {
           width: 100%;
           height: 100%;
-          object-fit: cover;   /* Ensures image fills container */
+          object-fit: cover;   
       }
       
-      /* Moving overlay image */
+
       .overlay-image1 {
           position: absolute;
-          width: 1200px;        /* Size of your moving image */
-          top: 4000px;          /* Vertical position */
+          width: 1200px;        
+          top: 4000px;         
           animation: moveRight 7s linear infinite;
           
       }
       
-      /* Animation definition */
+      
       @keyframes moveRight {
-          0% { left: 0px; }         /* Starts off-screen left */
-          100% { left: 100%; }        /* Ends off-screen right */
+          0% { left: 0px; }       
+          100% { left: 100%; }       
       }
 
       .overlay-image2 {
           position: absolute;
-          width: 1200px;        /* Size of your moving image */
-          top: 8000px;          /* Vertical position */
+          width: 1200px;       
+          top: 8000px;      
           animation: moveLeft 7s linear infinite;
       }
       
-      /* Animation definition */
       @keyframes moveLeft {
-          100% { left: -200px; }         /* Starts off-screen left */
-          0% { left: 100%; }        /* Ends off-screen right */
+          100% { left: -200px; }         
+          0% { left: 100%; }        
       }
 
 
@@ -87,7 +86,7 @@
     
   
     
-  <!-- <img src="tallhouse.svg" alt="tallhouse"> -->
+  
   
 
     <div class="overlay-text">While I’ve been in the Netherlands on an exchange semester I would be lying if I’d say I haven’t gotten homesick. As many other do when moving abroad for the first time. 
@@ -130,17 +129,14 @@
       </div>
     </div>
     <div class="image-container">
-      <!-- Background image -->
+ 
       <img class="base-image" src="TallHouse.svg" alt="Background">
       
-      <!-- Moving foreground image -->
+
       <img class="overlay-image1" src="sky.svg" alt="Moving object">
       <img class="overlay-image2" src="sky.svg" alt="Moving object">
   </div>
-    <!-- <div style="position: relative; width: 100%;">
-      <img src="TallHouse.svg" style="width: 100%">
-      <img src="sky.svg" 
-           style="position: absolute; width: 100px;;"> -->
+   
            
            
   </div>
