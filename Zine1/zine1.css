@@ -3,11 +3,11 @@
 
 @font-face {
     font-family: Erotica;
-    src: url(erotica.otf);
+    src: url(fonts/erotica.otf);
 }
 @font-face {
     font-family: ScotchItalic;
-    src: url(scotch\ italic.otf);
+    src: url(fonts/scotch\ italic.otf);
 }
 
 
