@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 633.53 821.45">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke-width: 10px;
+      }
+
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke: #f04937;
+        stroke-linejoin: round;
+      }
+
+      .cls-2 {
+        stroke-width: 10.31px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <circle class="cls-1" cx="315.63" cy="317.96" r="70.3"/>
+      <path class="cls-1" d="M294.41,382.44l-16.2,50.99c-31.1,97.88-33.42,202.63-6.69,301.79l22.89,84.93"/>
+      <g>
+        <g id="_Radial_Repeat_" data-name="&amp;lt;Radial Repeat&amp;gt;">
+          <path class="cls-2" d="M331.07,382.62c17.26,62.45,33.7,242.2-18.28,245.71-51.98,3.51-28.43-174.24-13.65-245.19"/>
+        </g>
+        <g id="_Radial_Repeat_-2" data-name="&amp;lt;Radial Repeat&amp;gt;">
+          <path class="cls-2" d="M289.63,378.44c-22.74,60.67-115.1,215.76-159.21,188.04-44.12-27.71,79.42-157.67,133.07-206.39"/>
+        </g>
+        <g id="_Radial_Repeat_-3" data-name="&amp;lt;Radial Repeat&amp;gt;">
+          <path class="cls-2" d="M258.56,350.71c-54.06,35.71-219.93,106.9-239.33,58.55-19.4-48.35,156.93-80.88,228.97-88.75"/>
+        </g>
+        <g id="_Radial_Repeat_-4" data-name="&amp;lt;Radial Repeat&amp;gt;">
+          <path class="cls-2" d="M249.72,310.02c-64.73-2.88-240.76-42.79-228.04-93.31,12.72-50.52,174.5,26.81,237.41,62.78"/>
+        </g>
+        <g id="_Radial_Repeat_-5" data-name="&amp;lt;Radial Repeat&amp;gt;">
+          <path class="cls-2" d="M266.49,271.9c-50.67-40.38-169.63-176.13-129.64-209.53,39.99-33.39,125.41,124.25,155.16,190.34"/>
+        </g>
+        <g id="_Radial_Repeat_-6" data-name="&amp;lt;Radial Repeat&amp;gt;">
+          <path class="cls-2" d="M302.47,250.92c-17.26-62.45-33.7-242.2,18.28-245.71s28.43,174.24,13.65,245.19"/>
+        </g>
+        <g id="_Radial_Repeat_-7" data-name="&amp;lt;Radial Repeat&amp;gt;">
+          <path class="cls-2" d="M343.9,255.09c22.74-60.67,115.1-215.76,159.21-188.04,44.12,27.71-79.42,157.67-133.07,206.39"/>
+        </g>
+        <g id="_Radial_Repeat_-8" data-name="&amp;lt;Radial Repeat&amp;gt;">
+          <path class="cls-2" d="M374.97,282.82c54.06-35.71,219.93-106.9,239.33-58.55,19.4,48.35-156.93,80.88-228.97,88.75"/>
+        </g>
+        <g id="_Radial_Repeat_-9" data-name="&amp;lt;Radial Repeat&amp;gt;">
+          <path class="cls-2" d="M383.81,323.52c64.73,2.88,240.76,42.79,228.04,93.31-12.72,50.52-174.5-26.81-237.41-62.78"/>
+        </g>
+        <g id="_Radial_Repeat_-10" data-name="&amp;lt;Radial Repeat&amp;gt;">
+          <path class="cls-2" d="M367.04,361.63c50.67,40.38,169.63,176.13,129.64,209.53-39.99,33.39-125.41-124.25-155.16-190.34"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,66 @@
+
+
+
+@font-face {
+    font-family: Erotica;
+    src: url(erotica.otf);
+}
+@font-face {
+    font-family: ScotchItalic;
+    src: url(scotch\ italic.otf);
+}
+
+
+
+h1 {
+    font-size: 175pt;
+    text-align: center;
+    font-family: Erotica;
+    color: rgb(229, 76, 76);
+
+
+    
+  
+  
+    
+}
+p {
+    font-family: scotchitalic;
+    text-align: left;
+    /* padding-left: 300pt;
+    padding-right: 300pt; */
+    font-size: 20pt;
+    color: rgb(229, 76, 76);
+}
+.row {
+    display: flex;
+    
+  }
+  
+  .column {
+    flex: 100%;
+    font-family: scotchitalic;
+    text-align: justify;
+    padding-left: 100pt;
+    padding-right: 100pt;
+    font-size: 20pt;
+    color: rgb(229, 76, 76);
+    
+   
+    /* white-space: pre; */
+    
+  }
+  p span {
+    display: block;
+   
+    
+  }
+
+
+
+
+
+
+
+
+

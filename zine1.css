@@ -1,0 +1,81 @@
+
+
+
+@font-face {
+    font-family: Erotica;
+    src: url(erotica.otf);
+}
+@font-face {
+    font-family: ScotchItalic;
+    src: url(scotch\ italic.otf);
+}
+
+
+body {
+    color: rgb(229, 76, 76);
+    background-color: rgb(255, 255, 255);
+    background-image: url("tallhouse.svg") fill rgb(0, 55, 255);
+    
+    
+}
+h1 {
+    font-size: 175pt;
+    text-align: center;
+    font-family: Erotica;
+    
+   
+
+ 
+    
+  
+  
+    
+}
+.overlay-text {
+    position: absolute;
+    font-family: scotchitalic;
+    text-align: left;
+    top: 130%;
+    padding-left: 100pt;
+    padding-right: 670pt;
+    font-size: 20pt;
+    /* transform:  skewy(11deg); */
+    transform: rotate(14deg) skewX(14deg);
+  }
+
+p {
+    font-family: scotchitalic;
+    text-align: left;
+    padding-left: 300pt;
+    padding-right: 300pt;
+    font-size: 20pt;
+    /* transform: translateX(400px) skew(45deg)rotate(-15deg); */
+    
+    
+}
+
+.row {
+    display: flex;
+    
+  }
+  
+  .column {
+    flex: 100%;
+    font-family: scotchitalic;
+    text-align: justify;
+    padding-left: 100pt;
+    padding-right: 130pt;
+    font-size: 20pt;
+    /* white-space: pre; */
+    
+  }
+  /* p span {
+    display: block;
+    
+  } */
+
+
+
+
+
+

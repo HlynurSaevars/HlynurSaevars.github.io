@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+  
+  <head>
+    
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>A Demo Font Family Page</title>
+    <link href="zine1.css" rel="stylesheet" />
+      
+ 
+    <style>
+
+              .fixed-overlay2 {
+            position: fixed;    /* Makes it stay in same screen position */
+            width: 100px;       /* Set your image width */
+            height: auto;      /* Maintain aspect ratio */
+            z-index: 20;     /*Ensures it stays on top */
+            
+            /* Position on screen - adjust these */
+            top: 20px;
+            right: 1610px;
+             
+           
+           
+        }
+      /* Container for the images */
+      .image-container {
+          position: relative;
+          top: -60px;
+          width: 100%;       /* Match your background image width */
+          height: 100%;      /* Match your background image height */
+          
+      }
+      
+      /* Background image (static) */
+      .base-image {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;   /* Ensures image fills container */
+      }
+      
+      /* Moving overlay image */
+      .overlay-image1 {
+          position: absolute;
+          width: 1200px;        /* Size of your moving image */
+          top: 4000px;          /* Vertical position */
+          animation: moveRight 7s linear infinite;
+          
+      }
+      
+      /* Animation definition */
+      @keyframes moveRight {
+          0% { left: 0px; }         /* Starts off-screen left */
+          100% { left: 100%; }        /* Ends off-screen right */
+      }
+
+      .overlay-image2 {
+          position: absolute;
+          width: 1200px;        /* Size of your moving image */
+          top: 8000px;          /* Vertical position */
+          animation: moveLeft 7s linear infinite;
+      }
+      
+      /* Animation definition */
+      @keyframes moveLeft {
+          100% { left: -200px; }         /* Starts off-screen left */
+          0% { left: 100%; }        /* Ends off-screen right */
+      }
+
+
+      
+  </style>
+    
+  </head>
+
+  <body>
+
+  
+<a href="index.html" class="fixed-overlay2">
+
+<img class="fixed-overlay2" src="arrow.svg" alt="Overlay2">
+
+  </a>
+
+
+    
+  
+    
+  <!-- <img src="tallhouse.svg" alt="tallhouse"> -->
+  
+
+    <div class="overlay-text">While I’ve been in the Netherlands on an exchange semester I would be lying if I’d say I haven’t gotten homesick. As many other do when moving abroad for the first time. 
+      I moved with my family right before I went to the Netherlands. So now when I get homesick I don’t know what home to be sick about. I don’t feel like I live here in the Netherlands. But I have lived here for longer then what is now my home. That makes for a really good opportunity to explore homesickness. Both for me personally and in a broader context. <br><br> Down here is an interview with my mom where we talked about homesickness, moving and building a new home. </div>
+    <p> 
+    
+      </p>
+    <div class="row">
+      <div class="overlay-text">
+      <div class="column" >
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        Have you ever gotten homesick?
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        After we moved, did you get homesick for our old home?
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        What has changed after you moved?
+        <br><br><br><br><br><br><br><br>
+        Did you have an identity tied to your old home?
+        <br><br><br><br><br><br><br><br>
+        How has that identity changed?
+        <br><br><br><br><br><br><br><br> <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        Have you gotten the feeling of being at home at the new house?
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        When did that happen?
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        What do you miss about our old home?
+
+      </div>
+
+
+        
+        
+      </div>
+      <div class="column">
+        <!-- Answer -->
+
+
+
+
+      </div>
+    </div>
+    <div class="image-container">
+      <!-- Background image -->
+      <img class="base-image" src="TallHouse.svg" alt="Background">
+      
+      <!-- Moving foreground image -->
+      <img class="overlay-image1" src="sky.svg" alt="Moving object">
+      <img class="overlay-image2" src="sky.svg" alt="Moving object">
+  </div>
+    <!-- <div style="position: relative; width: 100%;">
+      <img src="TallHouse.svg" style="width: 100%">
+      <img src="sky.svg" 
+           style="position: absolute; width: 100px;;"> -->
+           
+           
+  </div>
+
+  </body>
+</html>
+

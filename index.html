@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>A Demo Font Family Page</title>
+  <link href="index.css" rel="stylesheet"/>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    
+    body {
+      font-family: Erotica;
+    }
+    
+    .container {
+      line-height: 90pt;
+      display: flex;
+      margin: 7px auto 0;
+      max-width: 900px;
+      padding: 2px;
+      gap: 2px; /* Consistent gap between items */
+    }
+
+    /* Equal-width column base */
+    .item {
+      flex: 1; /* Equal width distribution */
+      min-width: 0; /* Fixes flexbox overflow issues */
+      text-decoration: none;
+      border-radius: 4px;
+      padding: 1px;
+      transition: all 0.2s ease;
+      position: relative;
+      text-align: center;
+    
+      
+    }
+
+    /* Content alignment */
+    .item-content {
+      font-size: 100px;
+      
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+    
+    /* Hover text styling - applied to all items */
+    .hover-text {
+      position: top;
+      bottom: -60px;
+      left: 0;
+      right: 0;
+      text-align: center;
+      color: rgb(229, 76, 76);
+      font-size: 100pt;
+      opacity: 0;
+      transition: all 0.2s ease;
+    }
+    
+    /* .item:hover {
+     
+    } */
+    
+    .item:hover .hover-text {
+      bottom: -400px;
+      opacity: 1;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <a href="zine1.html" class="item">
+      <div class="item-content">1</div>
+      <div class="hover-text">Interview</div>
+    </a>
+    
+    <a href="zine2.html" class="item">
+      <div class="item-content">2</div>
+      <div class="hover-text">Build your home</div>
+    </a>
+    
+    <a href="zine3.html" class="item">
+      <div class="item-content">3</div>
+      <div class="hover-text">Fögur er hlíðin</div>
+    </a>
+  </div>
+</body>
+</html>
