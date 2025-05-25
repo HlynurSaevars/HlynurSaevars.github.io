@@ -27,8 +27,8 @@ h1 {
 p {
     font-family: scotchitalic;
     text-align: left;
-    /* padding-left: 300pt;
-    padding-right: 300pt; */
+    
+    
     font-size: 20pt;
     color: rgb(229, 76, 76);
 }
@@ -40,14 +40,14 @@ p {
   .column {
     flex: 100%;
     font-family: scotchitalic;
-    text-align: justify;
+    text-align: left;
     padding-left: 100pt;
     padding-right: 100pt;
     font-size: 20pt;
     color: rgb(229, 76, 76);
     
    
-    /* white-space: pre; */
+    
     
   }
   p span {

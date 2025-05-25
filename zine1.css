@@ -14,7 +14,7 @@
 body {
     color: rgb(229, 76, 76);
     background-color: rgb(255, 255, 255);
-    background-image: url("tallhouse.svg") fill rgb(0, 55, 255);
+    background-image: url("tallhouse.svg") fill rgb(229, 76, 76);
     
     
 }
@@ -39,40 +39,39 @@ h1 {
     padding-left: 100pt;
     padding-right: 670pt;
     font-size: 20pt;
-    /* transform:  skewy(11deg); */
-    transform: rotate(14deg) skewX(14deg);
+    
+    
   }
 
+ 
 p {
     font-family: scotchitalic;
     text-align: left;
-    padding-left: 300pt;
-    padding-right: 300pt;
+    padding-left: 50pt;
+    padding-right: 0pt;
     font-size: 20pt;
-    /* transform: translateX(400px) skew(45deg)rotate(-15deg); */
+    transform:  skewX(-30deg);
     
     
 }
 
 .row {
     display: flex;
-    
+    transform: rotate(14deg) skewX(14deg);
   }
   
-  .column {
+.column {
+  display: flex;
     flex: 100%;
     font-family: scotchitalic;
-    text-align: justify;
-    padding-left: 100pt;
-    padding-right: 130pt;
+    text-align: left;
+    padding-left: 0pt;
+    padding-right: 0pt;
     font-size: 20pt;
-    /* white-space: pre; */
     
-  }
-  /* p span {
-    display: block;
     
-  } */
+    }
+
 
 
 

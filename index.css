@@ -37,7 +37,7 @@ a:link {
     
 }
 a {
-    color: rgb(32, 67, 221);
+    color: rgb(229, 76, 76);
 }
 
 
@@ -58,11 +58,11 @@ a {
 .container {
     
   display: flex;
-  justify-content: space-between; /* or space-around, space-evenly */
-  gap: 2px; /* space between items */
+  justify-content: space-between; 
+  gap: 2px; 
 }
 
 .item {
-  flex: 1; /* makes items equal width */
-  /* or set specific width: width: 30%; */
+  flex: 1;
+
 }
